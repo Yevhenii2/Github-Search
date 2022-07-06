@@ -1,0 +1,12 @@
+@import "./App.scss";
+@import "./reboot.scss";
+
+/* COMPONENTS */
+@import "../components/Header/Header.scss";
+@import "../components/UserList/UserList.scss";
+@import "../components/UserListItem/UserListItem.scss";
+@import "../components/Loader/Loader.scss";
+@import "../components/SearchBar/SearchBar.scss";
+@import "../components/UserInformation/UserInformation.scss";
+@import "../components/ReposList/ReposList.scss";
+@import "../components/RepoListItem/RepoListItem.scss";
