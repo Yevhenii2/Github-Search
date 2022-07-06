@@ -18,7 +18,7 @@ function App() {
       <Provider store={store}>
         <Header></Header>
         <Container maxWidth="sm">
-          <BrowserRouter>
+          <BrowserRouter basename="/Github-Search">
             <Routes>
               <Route index element={<HomePage />} />
               <Route path="/user/:login" element={<UserPage />}></Route>
